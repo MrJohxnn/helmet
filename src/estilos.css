@@ -1,103 +1,87 @@
-.cuerpo{
-    width: 1050px;
-    height: 800px;
+.cuerpo {
+    width: 1200px;
+    height: 602px;
     margin: auto;
     border-style: dashed;
     border-color: red;
 }
 
-.contenedor{
-    width: 800px;
-    height: 620px;
+.contenedor {
+    width: 950px;
+    height: auto;
     margin-top: 25px;
     margin: auto;
     padding: 20px;
-    border-style: groove;
     text-align: center;
     float: left;
 }
 
-.boxOne{
-    width: 364px;
-    height: 270px;
+.boxOne {
+    width: 442px;
+    height: auto;
     float: left;
-    border-style: solid;
-    padding: 10px;
-    margin-right:20px;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
-
-.boxTwo{
-    width: 364px;
-    height: 270px;
-    float: left;
-    border-style: solid;
-    padding: 10px;
-    display: flex;
+    padding: 10px 14px;
+    margin-right: 20px;
     align-items: center;
 }
 
-.boxThree{
-    width: 364px;
-    height: 270px;
+.boxTwo {
+    width: 442px;
+    height: auto;
     float: left;
-    border-style: solid;
-    padding: 10px;
-    margin-right:20px;
-    margin-top: 25px;
-    display: flex;
+    padding: 10px 14px;
     align-items: center;
 }
 
-.boxFour{
-    width: 364px;
-    height: 270px;
+.boxThree {
+    width: 100%;
+    height: auto;
     float: left;
-    border-style: solid;
     padding: 10px;
-    margin-top: 25px;
-    display: flex;
+    margin-right: 20px;
+    margin-top: 10px;
     align-items: center;
 }
 
-.contOne{
+.contOne {
     width: 330px;
     height: auto;
-    border-style: dotted;
     margin: auto;
 }
 
-.contTwo{
+.contTwo {
     width: 330px;
     height: auto;
-    border-style: dotted;
     margin: auto;
 }
 
-.contThree{
+.contThree {
     width: 330px;
     height: auto;
-    border-style: dotted;
     margin: auto;
 }
 
-.contFour{
-    width: 330px;
+.oneTitle{
+    width: auto;
     height: auto;
-    border-style: dotted;
-    margin: auto;
-}
-
-.OneOne{
     font-size: 20px;
+    align-items: center;
 }
 
-.OneTwo{
-    font-size: 50px;
+.twoTitle{
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    align-items: center;
+    margin-bottom: 22px;
 }
 
-.OneThree{
-    font-size: px;
+.threeTitle{
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+
+.primeraFila{
+    background-color: rgb(252, 215, 9);
 }

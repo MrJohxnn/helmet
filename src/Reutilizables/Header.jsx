@@ -6,12 +6,12 @@ export const Header = () => {
   return (
     <div className="headerBox">
       <div className="welcomeU">
-        <b>Welcome, Mr. PHP</b>
+        <b>Bienvenido, nombre de cliente</b>
       </div>
       <div className="sesion">
         <ButtonGroup aria-label="Basic example">
-          <Button variant="secondary">Perfil</Button>
-          <Button variant="secondary">Cerrar sesión</Button>
+          <Button variant="warning">Perfil</Button>
+          <Button variant="warning">Cerrar sesión</Button>
         </ButtonGroup>
       </div>
     </div>
