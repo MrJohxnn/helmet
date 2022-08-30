@@ -2,13 +2,24 @@
     width: auto;
     height: 90px;
     margin-bottom: 10px;
+    background-color: #FCC01D;
+}
+
+.logoHelmet {
+    width: 200px;
+    height: 80px;
+    margin: 3px 20px;
+    float: left;
+    background-image: url("img/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .welcomeU {
     width: auto;
     height: auto;
     margin-top: 20px;
-    margin-left: 237px;
+    margin-left: 27px;
     float: left;
     font-size: 25px;
 }
@@ -23,9 +34,12 @@
 
 .contMenu {
     width: 200px;
+    height: 100%;
     margin: 0 20px;
     padding-left: 10px;
     float: left;
+    border-style: dotted;
+    border-color: #FCC01D;
     list-style: none !important;
 }
 
@@ -78,11 +92,11 @@ a:active {
     float: right;
 }
 
-.menInf{
+.menInf {
     list-style: none !important;
 }
 
-.menInf li{
+.menInf li {
     display: inline;
     padding-left: 10px;
     padding-right: 10px;
