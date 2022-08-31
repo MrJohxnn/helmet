@@ -1,17 +1,11 @@
-import { Alert } from 'antd';
 import React from 'react'
 import 'antd/dist/antd.css'
 import "./estilos.css"
-import { Header } from "./Reutilizables/Header.jsx"
-import { Footer } from "./Reutilizables/Footer.jsx"
-import { MenuL } from "./Reutilizables/MenuL.jsx"
-import { Tabla } from "./Reutilizables/Tabla.jsx"
+import { Alert } from 'antd';
 
 export const HelmetApp = () => {
   return (
-    <body className="cuerpo">
-      <Header />
-      <MenuL />
+    <div className="cuerpo">
       <div className="contenedor">
         <div className="boxOne">
           <div className="oneTitle">
@@ -42,11 +36,11 @@ export const HelmetApp = () => {
         </div>
         <div className="boxThree">
           <div className="threeTitle">
-            <Tabla />
+          
           </div>
         </div>
       </div>
-      <Footer />
-    </body>
+ 
+    </div>
   )
 }

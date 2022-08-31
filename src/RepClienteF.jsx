@@ -7,16 +7,15 @@ import { MenuL } from "./Reutilizables/MenuL.jsx"
 
 export const RepClienteF = () => {
     return (
-        <body className="cuerpo">
-            <Header />
-            <MenuL />
+        <div className="cuerpo">
+
             <div className="repContenedor">
-                *Nuevo accidente*Ver estado*Historial*
+                <h1>aweonao</h1>
                 <div className="buttonBack">
                     *Volver*
                 </div>
             </div>
-            <Footer />
-        </body>
+    
+        </div>
     )
 }

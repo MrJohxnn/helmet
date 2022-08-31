@@ -1,7 +1,6 @@
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import {
-  BrowserRouter as Router,
   Link
 } from "react-router-dom";
 import React from 'react'
@@ -10,7 +9,7 @@ import 'antd/dist/antd.css'
 
 export const MenuL = () => {
   return (
-    <Router>
+    <div>
       <ul className="contMenu">
         <li className="Accidentes p-1" >
           {['end'].map((direction) => (
@@ -24,7 +23,7 @@ export const MenuL = () => {
               <Dropdown.Item eventKey="1">Historial de accidentes</Dropdown.Item>
               <Dropdown.Item eventKey="2">Ver estado accidentes</Dropdown.Item>
               <Dropdown.Divider />
-              <Dropdown.Item eventKey="3"><Link to="./RepCliente.jsx">Reportar accidente</Link></Dropdown.Item>
+              <Dropdown.Item eventKey="3"><Link to="/accidentes">Reportar accidente</Link></Dropdown.Item>
             </DropdownButton>
           ))}
         </li>
@@ -59,6 +58,6 @@ export const MenuL = () => {
           ))}
         </li>
       </ul>
-    </Router>
+    </div>
   )
 }
