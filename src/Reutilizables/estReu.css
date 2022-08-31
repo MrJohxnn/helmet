@@ -47,7 +47,8 @@
     width: 100%;
     height: 90px;
     float: left;
-    border-color: rgb(3, 216, 3);
+    margin-top: 10px;
+    background-color: #FCC01D;
 }
 
 .repError {

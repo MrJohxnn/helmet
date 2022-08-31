@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { HelmetApp } from './HelmetApp'
+import { RepClientesS } from './RepClientesS'
+import { BrowserRouter as Router } from "react-router-dom";
+import { AppRouter } from './Routes/AppRouter';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <HelmetApp />
-  </React.StrictMode>
+    <Router>
+      <AppRouter />
+    </Router>
 )

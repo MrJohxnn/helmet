@@ -5,6 +5,7 @@ export const Header = () => {
   return (
     <div className="headerBox">
       <div className="logoHelmet">
+        <a href="#"></a>
       </div>
       <div className="welcomeU">
         <b>Bienvenido, nombre de cliente</b>

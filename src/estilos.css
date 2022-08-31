@@ -6,12 +6,14 @@
 
 .contenedor {
     width: 950px;
-    height: auto;
+    height: 100%;
     margin-top: 25px;
     margin: auto;
     padding: 20px;
     text-align: center;
     float: left;
+    border-style: dotted;
+    border-color: red;
 }
 
 .boxOne {
@@ -82,4 +84,49 @@
 
 .primeraFila{
     background-color: rgb(252, 215, 9);
+}
+
+.repContenedor {
+    width: 950px;
+    height: 100%;
+    margin-top: 25px;
+    margin: auto;
+    padding: 20px;
+    float: left;
+    border-style: dotted;
+    border-color: red;
+}
+
+.buttonBack{
+    width: auto;
+    margin-top: 10px;
+    border-style: double; 
+    position: absolute;
+    bottom: -70px;
+}
+
+.nuevoAcc{
+    width: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    border-style: outset;
+    border-color: rgb(17, 17, 109);
+    display: flex;
+    float: left;
+}
+
+.datosAcc{
+    width: 400px;
+    height: 200px;
+    margin-top: 10px;
+    padding: 5px;
+    border-style: outset;
+    border-color: rgb(197, 7, 64);
+}
+
+.observ{
+    width: auto;
+    height: auto;
+    border-style: outset;
+    border-color: rgb(17, 109, 32);
 }
