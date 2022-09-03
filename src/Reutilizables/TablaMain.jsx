@@ -1,6 +1,6 @@
 import Table from 'react-bootstrap/Table';
 
-export const Tabla = () => {
+export const TablaMain = () => {
   return (
     <Table striped bordered hover size="md">
       <thead>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Footer = () => {
+export const ContFooter = () => {
     return (
         <div className="footerBox">
             <div className="repError">

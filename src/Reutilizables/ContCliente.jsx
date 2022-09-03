@@ -1,12 +1,11 @@
 import React from 'react'
-import 'antd/dist/antd.css'
-import "./estilos.css"
 import { Alert } from 'antd';
+import { TablaMain } from "./TablaMain.jsx"
 
-export const HelmetApp = () => {
-  return (
-    <div className="cuerpo">
-      <div className="contenedor">
+
+export const ContCliente = () => {
+    return (
+    <div>
         <div className="boxOne">
           <div className="oneTitle">
             <b>Accidentes</b>
@@ -36,11 +35,9 @@ export const HelmetApp = () => {
         </div>
         <div className="boxThree">
           <div className="threeTitle">
-          
+            <TablaMain />
           </div>
         </div>
-      </div>
- 
     </div>
-  )
+    )
 }

@@ -1,21 +1,18 @@
 import React from 'react'
 import 'antd/dist/antd.css'
+import { MenAcc } from "./Reutilizables/Botones/MenAcc.jsx"
 import "./estilos.css"
-import { Header } from "./Reutilizables/Header.jsx"
-import { Footer } from "./Reutilizables/Footer.jsx"
-import { MenuL } from "./Reutilizables/MenuL.jsx"
+import { HomeButton } from './Reutilizables/Botones/HomeButton.jsx'
 
 export const RepClienteF = () => {
     return (
         <div className="cuerpo">
-
             <div className="repContenedor">
-                <h1>aweonao</h1>
-                <div className="buttonBack">
-                    *Volver*
+                <MenAcc />
+                <div className="buttonHome">
+                    <HomeButton />
                 </div>
             </div>
-    
         </div>
     )
 }

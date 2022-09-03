@@ -1,19 +1,22 @@
 .cuerpo {
-    width: 1200px;
-    height: 602px;
+    width: auto;
+    height: auto;
     margin: auto;
+    display: flex;
+    align-items: center;
 }
 
 .contenedor {
-    width: 950px;
-    height: 100%;
+    width: 1000px;
+    height: 530px;
     margin-top: 25px;
     margin: auto;
     padding: 20px;
     text-align: center;
     float: left;
     border-style: dotted;
-    border-color: red;
+    background-color: white;
+    border-color:rgb(7, 153, 2);
 }
 
 .boxOne {
@@ -21,7 +24,8 @@
     height: auto;
     float: left;
     padding: 10px 14px;
-    margin-right: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
     align-items: center;
 }
 
@@ -29,6 +33,7 @@
     width: 442px;
     height: auto;
     float: left;
+    margin-top: 20px;
     padding: 10px 14px;
     align-items: center;
 }
@@ -39,7 +44,7 @@
     float: left;
     padding: 10px;
     margin-right: 20px;
-    margin-top: 10px;
+    margin-top: 80px;
     align-items: center;
 }
 
@@ -93,40 +98,79 @@
     margin: auto;
     padding: 20px;
     float: left;
+    background-color: white;
     border-style: dotted;
-    border-color: red;
+    border-color: rgb(7, 153, 2);
 }
 
-.buttonBack{
-    width: auto;
-    margin-top: 10px;
-    border-style: double; 
-    position: absolute;
-    bottom: -70px;
+.TittleAcc{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .nuevoAcc{
-    width: 200px;
+    width: 400px;
     margin-top: 10px;
     padding: 10px;
-    border-style: outset;
-    border-color: rgb(17, 17, 109);
-    display: flex;
+    font-size: 15px;
     float: left;
-}
-
-.datosAcc{
-    width: 400px;
-    height: 200px;
-    margin-top: 10px;
-    padding: 5px;
-    border-style: outset;
-    border-color: rgb(197, 7, 64);
 }
 
 .observ{
     width: auto;
     height: auto;
-    border-style: outset;
-    border-color: rgb(17, 109, 32);
+    bottom:0; 
+    z-index:999999;
+}
+
+.observ2{
+    width: auto;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+}
+.nuevoAcc2{
+    width: 100%;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.nuevoAcc td{
+    width: auto;
+    height: auto;
+}
+
+.nuevoAcc input{
+    width: 350px;
+    margin: 0 20px;
+}
+
+.fecha{
+    width: 200px;
+    height: 100%;
+    margin-top: 20px;
+    padding-left: 20px;
+    float: left;
+}
+
+.buttons{
+    width: auto;
+    margin-top: 10px;
+    bottom: 100px;
+    display: flex;
+    float: left;
+}
+
+.buttonHome{
+    margin-top: 400px;
+    float:right;
+}
+
+.homeB{
+    margin-top: 10px;
+    float:right;
+}
+
+a {
+    text-decoration: none !important; 
 }
