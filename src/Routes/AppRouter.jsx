@@ -1,26 +1,32 @@
 import React from 'react'
-import { Routes, Route, useLocation, useNavigate } from 'react-router-dom'
-import { HelmetHomeCli } from '../HelmetHomeCli'
+import { Routes, Route } from 'react-router-dom'
+import { HelmetHomePro } from '../HelmetHomePro'
 import { RepClienteF } from '../RepClienteF'
 import { RepClienteS } from '../RepClienteS'
 import { RepClienteT } from '../RepClienteT'
+import { RepProfesionalF } from '../RepProfesionalF'
+import { RepProfesionalS } from '../RepProfesionalS'
 import { ContFooter } from '../Reutilizables/ContFooter'
 import { ContHeader } from '../Reutilizables/ContHead'
-import { MenuL } from '../Reutilizables/MenuL'
+import { MenuProf } from '../Reutilizables/MenuProf'
 
 export const AppRouter = () => {
 
   return (
-    <div className="fondo">
+    <div>
       <ContHeader />
-      <MenuL />
-      <Routes>
-        <Route path='/home' element={<HelmetHomeCli />} />
+
+      <MenuProf />
+
+      <Routes path="/">
+        <Route index element={<HelmetHomePro />} />
+        <Route path='/accProfS' element={<RepProfesionalS />} />
         <Route path='/accidentes' element={<RepClienteF />} />
         <Route path='/NewAcc' element={<RepClienteS />} />
         <Route path='/cancel' element={<RepClienteF />} />
         <Route path='/repEnviado' element={<RepClienteT />} />
-        <Route path='/back' element={<RepClienteF />} />
+        <Route path='/backC' element={<RepClienteF />} />
+        <Route path='/backP' element={<RepProfesionalF />} />
       </Routes>
 
       <ContFooter />

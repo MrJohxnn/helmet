@@ -3,7 +3,7 @@ import ToggleButton from 'react-bootstrap/ToggleButton';
 import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup';
 import { Link } from "react-router-dom";
 
-export const MenAcc = () => {
+export const MenuAccC = () => {
 
     return (
         <div>
@@ -20,5 +20,4 @@ export const MenAcc = () => {
             </ToggleButtonGroup>
         </div>
     )
-
 }

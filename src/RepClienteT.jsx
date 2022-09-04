@@ -1,7 +1,7 @@
 import React from 'react'
 import 'antd/dist/antd.css'
 import "./estilos.css"
-import { BackButton } from './Reutilizables/Botones/BackButton';
+import { BackButtonC } from './Reutilizables/Botones/BackButtonC';
 import { HomeButton } from './Reutilizables/Botones/HomeButton';
 
 export const RepClienteT = () => {
@@ -54,7 +54,7 @@ export const RepClienteT = () => {
                     </p>
                 </div>
                 <div className="buttons">
-                    <BackButton />
+                    <BackButtonC />
                 </div>
                 <div className="homeB">
                     <HomeButton />

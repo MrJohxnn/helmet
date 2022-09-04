@@ -8,7 +8,7 @@ export const ContCliente = () => {
     <div>
         <div className="boxOne">
           <div className="oneTitle">
-            <b>Accidentes</b>
+            <h4>Accidentes</h4>
           </div>
           <br />
           <div className="contOne">
@@ -22,7 +22,7 @@ export const ContCliente = () => {
         </div>
         <div className="boxTwo">
           <div className="twoTitle">
-            <b>Capacitaciones</b>
+            <h4>Capacitaciones</h4>
           </div>
           <div className="contTwo">
             <Alert

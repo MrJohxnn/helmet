@@ -5,7 +5,7 @@ import React from 'react'
 import './estReu.css'
 import 'antd/dist/antd.css'
 
-export const MenuL = () => {
+export const MenuCliente = () => {
   return (
     <div className="contMenu">
       <ul className="contMenuL">
