@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const BackButtonC = () => {
   return (
     <div>
-        <Button variant="success"><Link to="/backC">Volver</Link></Button>
+        <Button variant="success"><Link to="/AccCli">Volver</Link></Button>
     </div>
   )
 }

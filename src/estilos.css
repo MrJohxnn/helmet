@@ -16,7 +16,7 @@
     float: left;
     border-style: dotted;
     background-color: white;
-    border-color:rgb(7, 153, 2);
+    border-color: rgb(7, 153, 2);
 }
 
 .boxOne {
@@ -40,6 +40,17 @@
 
 .boxThree {
     width: 442px;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+    margin-right: 40px;
+    padding: 10px 14px;
+    align-items: center;
+}
+
+
+.boxThreeCli {
+    width: 100%;
     height: auto;
     float: left;
     margin-top: 20px;
@@ -84,35 +95,74 @@
     margin-bottom: 10px;
 }
 
-.oneTitle{
+.oneTitle {
     width: auto;
     height: auto;
     text-align: left;
 }
 
-.twoTitle{
-    width: auto;
-    height: auto;
-    text-align: left;
-    margin-bottom: 22px;
-}
-
-.threeTitle{
+.twoTitle {
     width: auto;
     height: auto;
     text-align: left;
     margin-bottom: 22px;
 }
 
-.fourTitle{
+.threeTitle {
     width: auto;
     height: auto;
     text-align: left;
     margin-bottom: 22px;
 }
 
-.primeraFila{
+.threeTitleCli {
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.fourTitle {
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.repTitle{
+    margin-bottom: 22px;
+}
+
+.primeraFila {
     background-color: rgb(252, 215, 9);
+}
+
+.masterTabCli{
+    margin-top: 20px;
+}
+
+.masterTab{
+    margin-bottom: 30px;
+}
+
+.masterTab th{
+    text-align: center;
+}
+
+.tabAccidentes td{
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.estadoButton{
+    display: flex;
+}
+
+.verEstado{
+    width: auto;
+    height: auto;
 }
 
 .repContenedor {
@@ -127,25 +177,23 @@
     border-color: rgb(7, 153, 2);
 }
 
-
-
-.TittleAcc{
+.TittleAcc {
     text-align: center;
     width: 100%;
     margin-bottom: 20px;
 }
 
-.TittleAccP{
+.TittleAccP {
     width: auto;
     margin-bottom: 10px;
     float: left;
 }
 
-.guardar{
+.guardar {
     float: right;
 }
 
-.nuevoAcc{
+.nuevoAcc {
     width: 400px;
     margin-top: 10px;
     padding: 10px;
@@ -153,35 +201,37 @@
     float: left;
 }
 
-.observ{
+.observ {
     width: auto;
     height: auto;
-    bottom:0; 
-    z-index:999999;
+    bottom: 0;
+    z-index: 999999;
 }
 
-.observ2{
+.observ2 {
     width: auto;
     height: auto;
     float: left;
     margin-top: 10px;
 }
-.nuevoAcc2{
+
+.nuevoAcc2 {
     width: 100%;
     margin-top: 30px;
     font-size: 15px;
 }
-.nuevoAcc td{
+
+.nuevoAcc td {
     width: 100%;
     height: auto;
 }
 
-.nuevoAcc input{
+.nuevoAcc input {
     width: 350px;
     margin: 0 20px;
 }
 
-.fecha{
+.fecha {
     width: 200px;
     height: 100%;
     margin-top: 20px;
@@ -189,7 +239,7 @@
     float: left;
 }
 
-.buttons{
+.buttons {
     width: auto;
     margin-top: 10px;
     bottom: 100px;
@@ -197,15 +247,15 @@
     float: left;
 }
 
-.buttonHome{
-    float:right;
+.buttonHome {
+    float: right;
 }
 
-.homeB{
+.homeB {
     margin-top: 10px;
-    float:right;
+    float: right;
 }
 
 a {
-    text-decoration: none !important; 
+    text-decoration: none !important;
 }

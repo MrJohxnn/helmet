@@ -2,7 +2,7 @@ import Table from 'react-bootstrap/Table';
 
 export const TablaMain = () => {
   return (
-    <Table striped bordered hover size="md">
+    <Table striped bordered hover size="md" className="masterTabCli">
       <thead>
         <tr className="primeraFila">
           <th>Reporte Nº</th>

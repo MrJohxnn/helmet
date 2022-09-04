@@ -8,7 +8,7 @@ export const RepProfesionalF = () => {
     return (
         <div className="cuerpo">
             <div className="repContenedor">
-                <h3>Reporte de accidentes</h3>
+                <h3 className="repTitle">Reporte de accidentes</h3>
                     <TablaAccidentes />
                 <div className="buttonHome">
                     <HomeButton />

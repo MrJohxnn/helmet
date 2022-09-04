@@ -14,7 +14,7 @@ export const MenuProf = () => {
           <Button variant="warning">Actualizar información</Button>
         </li>
         <li className="accidentes p-1">
-          <Button variant="warning">Accidentes</Button>
+          <Button variant="warning"><Link to="/AccProf">Accidentes</Link></Button>
         </li>
         <li className="clientes p-1">
           {['end'].map((direction) => (

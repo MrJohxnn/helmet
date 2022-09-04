@@ -21,7 +21,7 @@ export const MenuCliente = () => {
               <Dropdown.Item eventKey="1">Historial de accidentes</Dropdown.Item>
               <Dropdown.Item eventKey="2">Ver estado accidentes</Dropdown.Item>
               <Dropdown.Divider />
-              <Dropdown.Item eventKey="3"><Link to="/accidentes">Reportar accidente</Link></Dropdown.Item>
+              <Dropdown.Item eventKey="3"><Link to="/AccCli">Reportar accidente</Link></Dropdown.Item>
             </DropdownButton>
           ))}
         </li>
