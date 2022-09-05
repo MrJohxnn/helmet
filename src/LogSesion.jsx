@@ -16,7 +16,7 @@ export const LogSesion = () => {
           <Form>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Usuario</Form.Label>
-              <Form.Control type="email" placeholder="Ingrese usuario" />
+              <Form.Control type="text" placeholder="Ingrese usuario" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicPassword">
               <Form.Label>Contraseña</Form.Label>
