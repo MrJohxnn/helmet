@@ -24,7 +24,7 @@ export const LogSesion = () => {
             <br />
               <a href="#">Olvidé mi contraseña</a>
             </Form.Group>
-            <Button variant="primary" type="submit">
+            <Button variant="success" type="submit">
               Iniciar sesión
             </Button>
           </Form>
