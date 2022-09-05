@@ -5,11 +5,9 @@ body {
 .iniSesion{
     width: 700px;
     height: auto;
-    padding: 30px 30px;
+    padding: 10px 10px;
     margin: auto;
     margin-top: 20px;
-    border-style: dotted;
-    border-color: white;
     background-color: rgb(7, 153, 2);
 }
 
