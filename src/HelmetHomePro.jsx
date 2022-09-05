@@ -6,6 +6,7 @@ import { ContProfesional } from './Reutilizables/ContProfesional'
 export const HelmetHomePro = () => {
   return (
     <div className="cuerpo">
+      
       <div className="contenedor">
         <ContProfesional />
       </div>

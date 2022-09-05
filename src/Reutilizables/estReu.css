@@ -1,5 +1,37 @@
-body{
+body {
     background-image: url("img/background.png");
+}
+
+.iniSesion{
+    width: 700px;
+    height: auto;
+    padding: 30px 30px;
+    margin: auto;
+    margin-top: 20px;
+    border-style: dotted;
+    border-color: white;
+    background-color: rgb(7, 153, 2);
+}
+
+.imgHelmet{
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.headLogin{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #FCC01D;
+}
+
+.formLogin{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    color: white;
 }
 
 .headerBox {
@@ -40,7 +72,7 @@ body{
     float: right;
 }
 
-.contMenu{
+.contMenu {
     width: 200px;
     height: 530px;
     margin-left: 100px;
@@ -83,10 +115,10 @@ body{
 
 .footerBox {
     width: 100%;
-    height: auto;
+    height: 70px;
     float: left;
     background-color: #FCC01D;
-    position:fixed; 
-    bottom:0; 
-    z-index:999999;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }

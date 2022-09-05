@@ -180,7 +180,7 @@
 .TittleAcc {
     text-align: center;
     width: 100%;
-    margin-bottom: 20px;
+    margin-top: -0px;
 }
 
 .TittleAccP {
@@ -217,7 +217,7 @@
 
 .nuevoAcc2 {
     width: 100%;
-    margin-top: 30px;
+    margin-top: -30px;
     font-size: 15px;
 }
 
