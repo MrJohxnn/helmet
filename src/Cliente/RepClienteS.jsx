@@ -15,7 +15,7 @@ const onChange = (date, dateString) => {
 
 export const RepClienteS = () => {
     return (
-        <body className="cuerpo">
+        <div className="cuerpo">
             <div className="repContenedor">
                 <div className="TittleAcc">
                     <h3>Reportar nuevo accidente</h3>
@@ -61,6 +61,6 @@ export const RepClienteS = () => {
                     <HomeButton />
                 </div>
             </div>
-        </body >
+        </div >
     )
 }

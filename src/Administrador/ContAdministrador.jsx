@@ -1,10 +1,9 @@
 import React from 'react'
 import { Alert } from 'antd';
-import { Progress } from 'antd';
-import { Link } from "react-router-dom";
+import { Progress, Tooltip } from 'antd';
 
 
-export const ContProfesional = () => {
+export const ContAdministrador = () => {
   return (
     <div>
       <div className="boxOne">
@@ -13,14 +12,12 @@ export const ContProfesional = () => {
         </div>
         <br />
         <div className="contOne">
-          <Link to="/accProfS">
-            <Alert
-              message="IMPORTANTE"
-              description="1 nuevo accidente."
-              type="warning"
-              showIcon
-            />
-          </Link>
+          <Alert
+            message="32 clientes"
+            description="Clientes nuevos : 4"
+            type="success"
+            showIcon
+          />
         </div>
       </div>
       <div className="boxTwo">
@@ -38,25 +35,33 @@ export const ContProfesional = () => {
       </div>
       <div className="boxThree">
         <div className="threeTitle">
-          <h5>Clientes</h5>
+          <h5>Accidentabilidad</h5>
         </div>
         <div className="contThree">
-          <Alert
-            message="32 clientes"
-            description="Clientes nuevos : 4"
-            type="success"
-            showIcon
-          />
+          <Tooltip title="Muy grave">
+            <Progress percent={60} strokeColor="red" />
+          </Tooltip>
+          <Tooltip title="Grave">
+            <Progress percent={25} strokeColor="yellow" />
+          </Tooltip>
+          <Tooltip title="Medio">
+            <Progress percent={10} />
+          </Tooltip>
+          <Tooltip title="Leve">
+            <Progress percent={5} strokeColor="green" />
+          </Tooltip>
         </div>
-      </div>
+      </div >
       <div className="boxFour">
         <div className="fourTitle">
-          <h5>Asesorías completadas</h5>
+          <h5>Pagos de clientes</h5>
         </div>
         <div className="contFour">
-          <Progress type="dashboard" percent={76} />
+          <Tooltip title="Al día / Pendientes">
+            <Progress type="dashboard" percent={76} />
+          </Tooltip>
         </div>
       </div>
-    </div>
+    </div >
   )
 }

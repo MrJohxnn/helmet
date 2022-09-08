@@ -1,7 +1,7 @@
 import { MenSup } from "./Botones/MenSup.jsx"
 import "./estReu.css"
 
-export const ContHeader = () => {
+export const ContHead = () => {
   return (
     <div className="headerBox">
       <div className="logoHelmet">

@@ -7,12 +7,11 @@ import { AppRouterProf } from './AppRouterProf'
 export const AppRouterMain = () => {
     return (
         <div>
-
             <LogSesion />
 
-            <Routes path="/*">
-                <Route path='/cliente/*' element={<AppRouterCli />} />
-                <Route path='/profesional/*' element={<AppRouterProf />} />
+            <Routes path="/">
+                <Route path='/clienteM' element={<AppRouterCli />} />
+                <Route path='/profesional' element={<AppRouterProf />} />
             </Routes>
         </div>
     )

@@ -1,26 +1,25 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import { HelmetHomePro } from '../HelmetHomePro'
-import { RepClienteT } from '../RepClienteT'
-import { RepProfesionalF } from '../RepProfesionalF'
-import { RepProfesionalS } from '../RepProfesionalS'
+import { HelmetHomePro } from '../Profesional/HelmetHomePro'
+import { RepProfesionalF } from '../Profesional/RepProfesionalF'
+import { RepProfesionalS } from '../Profesional/RepProfesionalS'
 import { ContFooter } from '../Reutilizables/ContFooter'
-import { ContHeader } from '../Reutilizables/ContHead'
-import { MenuProf } from '../Reutilizables/MenuProf'
+import { ContHead } from '../Reutilizables/ContHead'
+import { MenuProf } from '../Reutilizables/Menus/MenuProf'
 
 export const AppRouterProf = () => {
 
   return (
     <div>
-      <ContHeader />
+      <ContHead />
 
       <MenuProf />
 
       <Routes path="/">
         <Route index element={<HelmetHomePro/>} />
         <Route path='/accProfS' element={<RepProfesionalS />} />
-        <Route path='/repEnviado' element={<RepClienteT />} />
         <Route path='/AccProf' element={<RepProfesionalF />} />
+        <Route path='/backP' element={<RepProfesionalF />} />
       </Routes>
 
       <ContFooter />

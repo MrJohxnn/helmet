@@ -3,8 +3,8 @@ import React, { useEffect, useState } from 'react';
 import { Select } from 'antd';
 import 'antd/dist/antd.css'
 import "./estilos.css"
-import { HomeButton } from './Reutilizables/Botones/HomeButton';
-import { MenuAccP } from './Reutilizables/Botones/MenuAccP';
+import { HomeButton } from '../Reutilizables/Botones/HomeButton';
+import { MenuAccP } from '../Reutilizables/Botones/MenuAccP';
 
 export const RepProfesionalS = () => {
 

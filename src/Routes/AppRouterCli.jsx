@@ -5,13 +5,13 @@ import { RepClienteF } from '../RepClienteF'
 import { RepClienteS } from '../RepClienteS'
 import { RepClienteT } from '../RepClienteT'
 import { ContFooter } from '../Reutilizables/ContFooter'
-import { ContHeader } from '../Reutilizables/ContHead'
-import { MenuCliente } from '../Reutilizables/MenuCliente'
+import { ContHead } from '../Reutilizables/ContHead'
+import { MenuCliente } from '../Reutilizables/Menus/MenuCliente'
 
 export const AppRouterCli = () => {
   return (
     <div>
-      <ContHeader />
+      <ContHead />
 
       <MenuCliente />
 

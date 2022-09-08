@@ -1,6 +1,6 @@
 import React from 'react'
 import { Alert } from 'antd';
-import { TablaMain } from "./TablaMain.jsx"
+import { TablaMain } from "../Reutilizables/TablaMain.jsx"
 
 
 export const ContCliente = () => {
