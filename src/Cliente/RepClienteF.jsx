@@ -1,8 +1,8 @@
 import React from 'react'
 import 'antd/dist/antd.css'
-import { MenuAccC } from "./Reutilizables/Botones/MenuAccC.jsx"
-import "./estilos.css"
-import { HomeButton } from './Reutilizables/Botones/HomeButton.jsx'
+import { MenuAccC } from "../Reutilizables/Botones/MenuAccC.jsx"
+import "../estilos.css"
+import { HomeButton } from '../Reutilizables/Botones/HomeButton.jsx'
 
 export const RepClienteF = () => {
     return (

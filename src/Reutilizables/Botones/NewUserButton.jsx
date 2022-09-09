@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const NewUserButton = () => {
   return (
     <div>
-        <Button variant="success"><Link to="/NewUser">Nuevo usuario</Link></Button>
+        <Button variant="success"><Link to="/DetailUser">Nuevo usuario</Link></Button>
     </div>
   )
 }

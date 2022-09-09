@@ -1,7 +1,7 @@
 import React from 'react'
 import 'antd/dist/antd.css'
-import "./estilos.css"
-import { ContCliente } from './Reutilizables/ContCliente'
+import "../estilos.css"
+import { ContCliente } from '../Cliente/ContCliente'
 
 export const HelmetHomeCli = () => {
   return (

@@ -9,6 +9,7 @@ import { ContHead } from '../Reutilizables/ContHead'
 import { MenuAdm } from '../Reutilizables/Menus/MenuAdm'
 import { UsersAdmMain } from '../Administrador/UsersAdmMain'
 import { UsersDetailAdm } from '../Administrador/UsersDetailAdm'
+import { UsersDetailSaved } from '../Administrador/UsersDetailSaved'
 
 export const AppRouterAdm = () => {
 
@@ -25,6 +26,7 @@ export const AppRouterAdm = () => {
         <Route path='/saveNewUser' element={<UsersAdmT />} />
         <Route path="/listUsers" element={<UsersAdmMain />} />
         <Route path="/detailUsers" element={<UsersDetailAdm />} />
+        <Route path="/saveDetailUser" element={<UsersDetailSaved />} />
       </Routes>
 
       <ContFooter />

@@ -1,11 +1,11 @@
 import React from 'react'
-import { SendButton } from './Reutilizables/Botones/SendButton.jsx';
-import { HomeButton } from "./Reutilizables/Botones/HomeButton.jsx"
-import { CancelButtonC } from './Reutilizables/Botones/CancelButtonC.jsx';
+import { SendButton } from '../Reutilizables/Botones/SendButton.jsx';
+import { HomeButton } from "../Reutilizables/Botones/HomeButton.jsx"
+import { CancelButtonC } from '../Reutilizables/Botones/CancelButtonC.jsx';
 import { DatePicker, } from 'antd';
 import { Input } from 'antd';
 import 'antd/dist/antd.css'
-import "./estilos.css"
+import "../estilos.css"
 
 const { TextArea } = Input;
 

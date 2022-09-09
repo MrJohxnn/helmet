@@ -1,9 +1,9 @@
 import React from 'react'
 import 'antd/dist/antd.css'
-import "./estilos.css"
-import { BackButtonC } from './Reutilizables/Botones/BackButtonC';
-import { HomeButton } from './Reutilizables/Botones/HomeButton';
+import "../estilos.css"
+import { HomeButton } from '../Reutilizables/Botones/HomeButton';
 import { Result } from 'antd';
+import { BackButtonC } from '../Reutilizables/Botones/BackButtonC';
 
 export const RepClienteT = () => {
     return (

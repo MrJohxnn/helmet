@@ -2,10 +2,10 @@ import React from 'react'
 import { Result } from 'antd';
 import 'antd/dist/antd.css'
 import "../estilos.css"
-import { AceptButtonA, BackButtonA } from '../Reutilizables/Botones/AceptButtonA';
+import { AceptButtonA } from '../Reutilizables/Botones/AceptButtonA';
 
 
-export const UsersAdmT = () => {
+export const UsersDetailSaved = () => {
     return (
         <div className="cuerpo">
             <div className="repContenedor">

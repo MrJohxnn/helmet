@@ -9,7 +9,7 @@ export const MenuAccB = () => {
         <div>
             <ToggleButtonGroup type="checkbox" defaultValue={[1, 3]} className="mb-2">
             <ToggleButton id="tbg-check-2" variant="success" value={1}>
-                    <Link to="/saveNewUser">Guardar cambios</Link>
+                    <Link to="/saveDetailUser">Guardar cambios</Link>
                 </ToggleButton>
                 <ToggleButton id="tbg-check-2" variant="success" value={2}>
                     <Link to="/listUsers">Cancelar</Link>
