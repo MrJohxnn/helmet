@@ -1,7 +1,7 @@
 import React from 'react'
 import 'antd/dist/antd.css'
-import "./estilos.css"
-import { ContProfesional } from './Reutilizables/ContProfesional'
+import "../estilos.css"
+import { ContProfesional } from './ContProfesional'
 
 export const HelmetHomePro = () => {
   return (

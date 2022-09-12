@@ -1,7 +1,8 @@
 import React from 'react'
 import { Alert } from 'antd';
-import { Progress } from 'antd';
+import { Progress, Tooltip } from 'antd';
 import { Link } from "react-router-dom";
+
 
 
 export const ContProfesional = () => {

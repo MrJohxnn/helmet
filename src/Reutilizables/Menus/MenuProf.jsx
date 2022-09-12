@@ -3,7 +3,7 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 import Button from 'react-bootstrap/Button';
 import { Link } from "react-router-dom";
 import React from 'react'
-import './estReu.css'
+import '../estReu.css'
 import 'antd/dist/antd.css'
 
 export const MenuProf = () => {
