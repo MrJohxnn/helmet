@@ -1,11 +1,11 @@
 import React from 'react'
 import { SendButton } from '../Reutilizables/Botones/SendButton.jsx';
-import { HomeButton } from "../Reutilizables/Botones/HomeButton.jsx"
 import { CancelButtonC } from '../Reutilizables/Botones/CancelButtonC.jsx';
 import { DatePicker, } from 'antd';
 import { Input } from 'antd';
 import 'antd/dist/antd.css'
 import "../estilos.css"
+import { HomeButtonCli } from '../Reutilizables/Botones/HomeButtonCli.jsx';
 
 const { TextArea } = Input;
 
@@ -58,7 +58,7 @@ export const RepClienteS = () => {
                     <CancelButtonC />
                 </div>
                 <div className="homeB">
-                    <HomeButton />
+                    <HomeButtonCli />
                 </div>
             </div>
         </div >

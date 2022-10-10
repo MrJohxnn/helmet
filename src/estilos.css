@@ -48,7 +48,6 @@
     align-items: center;
 }
 
-
 .boxThreeCli {
     width: 100%;
     height: auto;
@@ -321,4 +320,41 @@ a {
 .botonNuevoUsuario {
     margin-right: 20px;
     float: left;
+}
+
+.pagoDetail {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.buttonsPago {
+    width: auto;
+    bottom: 100px;
+    display: flex;
+    float: left;
+}
+
+.homePago {
+    float: right;
+}
+
+.SetButtonsPago {
+    margin-top: 30px;
+}
+
+.codEmpresa{
+    float: left;
+}
+
+.estServicio {
+    float: right;
+    margin-right: 50px;
+}
+
+.CheckImg {
+    max-width: 25px;
+    max-height: 25px;
+    margin-left: 10px;
+    margin-bottom: 5px;
 }

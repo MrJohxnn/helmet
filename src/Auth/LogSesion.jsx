@@ -2,8 +2,8 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { Link } from "react-router-dom";
-import "./estilos.css"
-import './Reutilizables/estReu.css'
+import "../estilos.css"
+import '../Reutilizables/estReu.css'
 
 export const LogSesion = () => {
   return (

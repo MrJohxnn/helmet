@@ -11,7 +11,7 @@ export const MenuAdm = () => {
     <div className="contMenu">
       <ul className="contMenuL">
         <li className="actInformacion p-1" >
-          <Button variant="warning"><Link to="AccAdm">Administrar usuarios</Link></Button>
+          <Button variant="warning"><Link to="admin/AccAdm">Administrar usuarios</Link></Button>
         </li>
         <li className="clientes p-1">
           {['end'].map((direction) => (
@@ -22,7 +22,7 @@ export const MenuAdm = () => {
               variant="warning"
               title={` Clientes `}
             >
-              <Dropdown.Item eventKey="1">Controlar pagos</Dropdown.Item>
+              <Dropdown.Item eventKey="1"><Link to="admin/PagosMain">Pagos</Link></Dropdown.Item>
               <Dropdown.Item eventKey="2">Calcular accidentabilidad</Dropdown.Item>
               <Dropdown.Divider />
               <Dropdown.Item eventKey="3">Visualizar actividades</Dropdown.Item>
@@ -30,7 +30,10 @@ export const MenuAdm = () => {
           ))}
         </li>
         <li className="actInformacion p-1" >
-          <Button variant="warning">Generar reportes</Button>
+          <Button variant="warning">Reportes de cliente</Button>
+        </li>
+        <li className="actInformacion p-1" >
+          <Button variant="warning">Indicadores</Button>
         </li>
       </ul>
     </div >

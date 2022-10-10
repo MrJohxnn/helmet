@@ -1,8 +1,8 @@
 import React from 'react'
 import 'antd/dist/antd.css'
 import "../estilos.css"
-import { HomeButton } from '../Reutilizables/Botones/HomeButton.jsx'
 import { TablaAccidentes } from '../Reutilizables/TablaAccidentes'
+import { HomeButtonProf } from '../Reutilizables/Botones/HomeButtonProf'
 
 export const RepProfesionalF = () => {
     return (
@@ -11,7 +11,7 @@ export const RepProfesionalF = () => {
                 <h3 className="repTitle">Reporte de accidentes</h3>
                     <TablaAccidentes />
                 <div className="buttonHome">
-                    <HomeButton />
+                    <HomeButtonProf />
                 </div>
             </div>
         </div>

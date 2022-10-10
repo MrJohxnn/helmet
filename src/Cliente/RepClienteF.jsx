@@ -2,7 +2,7 @@ import React from 'react'
 import 'antd/dist/antd.css'
 import { MenuAccC } from "../Reutilizables/Botones/MenuAccC.jsx"
 import "../estilos.css"
-import { HomeButton } from '../Reutilizables/Botones/HomeButton.jsx'
+import { HomeButtonCli } from '../Reutilizables/Botones/HomeButtonCli.jsx'
 
 export const RepClienteF = () => {
     return (
@@ -10,7 +10,7 @@ export const RepClienteF = () => {
             <div className="repContenedor">
                 <MenuAccC />
                 <div className="buttonHome">
-                    <HomeButton />
+                    <HomeButtonCli />
                 </div>
             </div>
         </div>

@@ -1,11 +1,11 @@
 import React from 'react'
 import 'antd/dist/antd.css'
 import "../estilos.css"
+import { HomeButtonAdmin } from '../Reutilizables/Botones/HomeButtonAdmin';
 import { Result } from 'antd';
-import { BackButtonC } from '../Reutilizables/Botones/BackButtonC';
-import { HomeButtonCli } from '../Reutilizables/Botones/HomeButtonCli';
+import { BackButtonPago } from '../Reutilizables/Botones/BackButtonPago';
 
-export const RepClienteT = () => {
+export const AdmPagosDetail2 = () => {
     return (
         <div className="cuerpo">
             <div className="repContenedor">
@@ -58,10 +58,10 @@ export const RepClienteT = () => {
                     </p>
                 </div>
                 <div className="buttons">
-                    <BackButtonC />
+                    <BackButtonPago />
                 </div>
                 <div className="homeB">
-                    <HomeButtonCli />
+                    <HomeButtonAdmin />
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import 'antd/dist/antd.css'
 import "../estilos.css"
-import { HomeButton } from '../Reutilizables/Botones/HomeButton.jsx'
+import { HomeButtonAdmin } from '../Reutilizables/Botones/HomeButtonAdmin.jsx'
 import { MenuUserA } from '../Reutilizables/Menus/MenuUserA'
 
 export const UsersAdmF = () => {
@@ -10,7 +10,7 @@ export const UsersAdmF = () => {
             <div className="repContenedor">
                 <MenuUserA />
                 <div className="buttonHome">
-                    <HomeButton />
+                    <HomeButtonAdmin />
                 </div>
             </div>
         </div>
