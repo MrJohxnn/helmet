@@ -2,8 +2,8 @@ import React from 'react'
 import { Alert } from 'antd';
 import { Progress, Tooltip } from 'antd';
 
-
 export const ContAdministrador = () => {
+  
   return (
     <div>
       <div className="boxOne">

@@ -1,9 +1,15 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
+import { Accidentabilidad } from '../Administrador/Accidentabilidad'
+import { ActClientes } from '../Administrador/ActClientes'
+import { ActClientesDetail1 } from '../Administrador/ActClientesDetail1'
 import { AdmPagosDetail1 } from '../Administrador/AdmPagosDetail1'
 import { AdmPagosDetail2 } from '../Administrador/AdmPagosDetail2'
 import { AdmPagosMain } from '../Administrador/AdmPagosMain'
 import { HelmetHomeAdm } from '../Administrador/HelmetHomeAdm'
+import { RendimientoDet1 } from '../Administrador/RendimientoDet1'
+import { RendimientoMain } from '../Administrador/RendimientoMain'
+import { ReportesMain } from '../Administrador/ReportesMain'
 import { UsersAdmF } from '../Administrador/UsersAdmF'
 import { UsersAdmMain } from '../Administrador/UsersAdmMain'
 import { UsersAdmS } from '../Administrador/UsersAdmS'
@@ -39,8 +45,13 @@ export const AppRoutes = () => {
         <Route path="/admin/PagoDetail1" element={<AdmPagosDetail1 />} />
         <Route path="/admin/PagoDetail2" element={<AdmPagosDetail2 />} />
         <Route path="/admin/BackPago" element={<AdmPagosMain />} />
-      
-        
+        <Route path="/admin/accidentabilidad" element={<Accidentabilidad />} />
+        <Route path="/admin/actividades" element={<ActClientes />} />
+        <Route path="/admin/ActClientesDetail1" element={<ActClientesDetail1 />} />
+        <Route path="/admin/BackAct" element={<ActClientes />} />
+        <Route path="/admin/ReportesMain" element={<ReportesMain />} />
+        <Route path="/admin/RendimientoMain" element={<RendimientoMain />} />
+        <Route path="/admin/RendimientoDet1" element={<RendimientoDet1 />} />
 
         {/* rutas para clientes */}
 

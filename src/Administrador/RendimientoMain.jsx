@@ -2,20 +2,20 @@ import React from 'react'
 import 'antd/dist/antd.css'
 import "../estilos.css"
 import { HomeButtonAdmin } from '../Reutilizables/Botones/HomeButtonAdmin.jsx'
-import { TablaPagoClientes } from '../Reutilizables/TablaPagoClientes'
 import { BarraBuscarCli } from '../Reutilizables/BarraBuscarCli'
+import { TablaRendProfesionales } from '../Reutilizables/TablaRendProfesionales'
 
-export const AdmPagosMain = () => {
+export const RendimientoMain = () => {
     return (
         <div className="cuerpo">
             <div className="repContenedor">
                 <h3 className="usersTitle">
-                    Pagos de clientes
+                   Indicadores de rendimiento
                 </h3>
                 <div className="buscar">
                     <BarraBuscarCli />
                 </div>
-                <TablaPagoClientes />
+                <TablaRendProfesionales />
                 <div className="buttonHome">
                     <HomeButtonAdmin />
                 </div>

@@ -2,66 +2,65 @@ import React from 'react'
 import 'antd/dist/antd.css'
 import "../estilos.css"
 import { HomeButtonAdmin } from '../Reutilizables/Botones/HomeButtonAdmin';
-import { Result } from 'antd';
 import { BackButtonPago } from '../Reutilizables/Botones/BackButtonPago';
 
 export const AdmPagosDetail2 = () => {
     return (
         <div className="cuerpo">
             <div className="repContenedor">
-                <div className="TittleAcc">
-                    <Result
-                        status="success"
-                        title="Reporte enviado con éxito"
-                    />
+                <div className="codEmpresa">
+                    <h2>Empresa #100002</h2>
                 </div>
-                <table className="nuevoAcc2">
+                <div className="estServicio">
                     <tr>
-                        <td>Nombre trabajador :</td>
-                        <td>Pedro Picapiedra</td>
-                        <td>Fecha :</td>
-                        <td>28/08/2022</td>
-                        <td><b>Reporte Nº :</b></td>
-                        <td><b>100456</b></td>
+                        <td><h3>Servicio :</h3></td>
+                        <td><h3><img src="/img/check.png" alt="" className="CheckImg"/> Activo</h3></td>
+                    </tr>
+                </div>
+                <table className="pagoDetail">
+                    <tr>
+                        <td><b>Empresa :</b></td>
+                        <td>Duoc UC</td>
+                        <td><b>Estado de pago :</b></td>
+                        <td>Pendiente</td>
                     </tr>
                     <br />
                     <tr>
-                        <td>Rut trabajador :</td>
-                        <td>12345678-9</td>
-
+                        <td><b>Rut empresa :</b></td>
+                        <td>22.222.222-2</td>
+                        <td><b>Fecha último pago :</b></td>
+                        <td>10/08/2022</td>
                     </tr>
                     <br />
                     <tr>
-                        <td>Cargo :</td>
-                        <td>Bodeguero</td>
+                        <td><b>Contacto empresa :</b></td>
+                        <td>Carlos Diaz</td>
+                        <td><b>Profesional a cargo :</b></td>
+                        <td>Guillermo Carrasco</td>
                     </tr>
                     <br />
                     <tr>
-                        <td>Ubicación :</td>
-                        <td>Bodega</td>
+                        <td><b>Correo eléctrónico :</b></td>
+                        <td>cdiaz@duoc.cl</td>
+                        <td><b>Notificaciones enviadas :</b></td>
+                        <td>2</td>
                     </tr>
                     <br />
                     <tr>
-                        <td>Observación :</td>
+                        <td><b>Fecha de pago :</b></td>
+                        <td>05/09/2022</td>
+                        <td><b>Última notificación :</b></td>
+                        <td>15/09/2022</td>
                     </tr>
                 </table>
-                <div className="observ2">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis iaculis nunc, vitae tincidunt augue vestibulum sodales.
-                        Praesent rutrum urna et semper sagittis. In libero tortor, rhoncus et est ut, elementum pulvinar ligula.
-                        Aliquam imperdiet, nibh vel imperdiet elementum, orci mi molestie sem, et ullamcorper tortor odio ut ligula.
-                        Quisque sit amet erat rhoncus, laoreet diam vitae, suscipit massa. Nam quis tellus efficitur, commodo mi non, gravida ex.
-                        Phasellus nisl neque, lobortis eget neque sed, consequat aliquet orci. Phasellus purus neque, sollicitudin a justo vel, ultrices cursus enim.
-                        Quisque sollicitudin, magna a consequat tempor, sem leo elementum elit, quis tincidunt nibh ipsum nec sem. Morbi hendrerit eleifend varius.
-                        Nulla consectetur nibh lorem, nec faucibus eros faucibus a. Nulla placerat, lectus non imperdiet viverra, ligula sem convallis elit, eget ultrices massa diam vel sem.
-                        Aliquam justo sem, dapibus quis turpis sed, consequat viverra lacus. Donec ac rutrum nisl.
-                    </p>
-                </div>
-                <div className="buttons">
-                    <BackButtonPago />
-                </div>
-                <div className="homeB">
-                    <HomeButtonAdmin />
+                <div className="SetButtonsPago">
+                    <div className="buttonsPago">
+                        <BackButtonPago /> 
+                        {/* Boton de popup para detalle de pago */}
+                    </div>
+                    <div className="homePago">
+                        <HomeButtonAdmin />
+                    </div>
                 </div>
             </div>
         </div>

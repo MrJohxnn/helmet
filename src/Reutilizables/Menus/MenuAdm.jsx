@@ -11,7 +11,7 @@ export const MenuAdm = () => {
     <div className="contMenu">
       <ul className="contMenuL">
         <li className="actInformacion p-1" >
-          <Button variant="warning"><Link to="admin/AccAdm">Administrar usuarios</Link></Button>
+          <Button className="MenButtons" variant="warning"><Link to="admin/AccAdm">Administrar usuarios</Link></Button>
         </li>
         <li className="clientes p-1">
           {['end'].map((direction) => (
@@ -22,18 +22,17 @@ export const MenuAdm = () => {
               variant="warning"
               title={` Clientes `}
             >
-              <Dropdown.Item eventKey="1"><Link to="admin/PagosMain">Pagos</Link></Dropdown.Item>
-              <Dropdown.Item eventKey="2">Calcular accidentabilidad</Dropdown.Item>
-              <Dropdown.Divider />
-              <Dropdown.Item eventKey="3">Visualizar actividades</Dropdown.Item>
+              <Dropdown.Item eventKey="1"><Link to="/admin/PagosMain">Pagos</Link></Dropdown.Item>
+              <Dropdown.Item eventKey="2"><Link to="/admin/accidentabilidad">Accidentabilidad</Link></Dropdown.Item>
+              <Dropdown.Item eventKey="3"><Link to="/admin/actividades">Actividades</Link></Dropdown.Item>
             </DropdownButton>
           ))}
         </li>
         <li className="actInformacion p-1" >
-          <Button variant="warning">Reportes de cliente</Button>
+          <Button className="MenButtons" variant="warning"><Link to="/admin/ReportesMain">Reportes de cliente</Link></Button>
         </li>
         <li className="actInformacion p-1" >
-          <Button variant="warning">Indicadores</Button>
+          <Button className="MenButtons" variant="warning"><Link to="/admin/RendimientoMain">Rendimiento</Link></Button>
         </li>
       </ul>
     </div >

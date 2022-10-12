@@ -2,7 +2,7 @@ import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import { Link } from "react-router-dom";
 
-export const TablaClientes = () => {
+export const TablaPagoClientes = () => {
   return (
     <Table striped bordered hover size="md" className="masterTab">
       <thead>
