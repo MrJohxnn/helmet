@@ -2,10 +2,10 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import { Link } from "react-router-dom";
 
-export const NewUserButton = () => {
+export const CancelButtonU = () => {
   return (
     <div>
-        <Button variant="success"><Link to="/admin/NewUser">Nuevo usuario</Link></Button>
+        <Button variant="outline-danger"><Link to="/admin/listUsers">Cancelar</Link></Button>
     </div>
   )
 }

@@ -1,11 +1,11 @@
 import React from 'react'
 import { HomeButtonAdmin } from "../Reutilizables/Botones/HomeButtonAdmin.jsx"
-import { CancelButtonC } from '../Reutilizables/Botones/CancelButtonC.jsx';
+import { CancelButtonU } from '../Reutilizables/Botones/CancelButtonU.jsx';
 import { Select } from 'antd';
 import { Input } from 'antd';
 import 'antd/dist/antd.css'
 import "../estilos.css"
-import { SaveButton } from '../Reutilizables/Botones/SaveButton.jsx';
+import { SaveUser } from '../Reutilizables/Botones/SaveUser.jsx';
 
 const { TextArea } = Input;
 
@@ -70,8 +70,8 @@ export const UsersAdmS = () => {
                 </table>
                 
                 <div className="buttonsA">
-                    <SaveButton />
-                    <CancelButtonC />
+                    <SaveUser />
+                    <CancelButtonU />
                 </div>
                 <div className="homeA">
                     <HomeButtonAdmin />

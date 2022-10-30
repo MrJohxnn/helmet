@@ -13,15 +13,16 @@ export const MenuAdm = () => {
         <li className="actInformacion p-1" >
           <Button className="MenButtons" variant="warning"><Link to="admin/AccAdm">Administrar usuarios</Link></Button>
         </li>
-        <li className="clientes p-1">
+        <li className="det_clientes p-1">
           {['end'].map((direction) => (
             <DropdownButton
               key={direction}
               id={`clientes`}
               drop={direction}
               variant="warning"
-              title={` Clientes `}
+              title={` Detalle Clientes `}
             >
+              <Dropdown.Item eventKey="1"><Link to="/admin/clientesMain">Clientes</Link></Dropdown.Item>
               <Dropdown.Item eventKey="1"><Link to="/admin/PagosMain">Pagos</Link></Dropdown.Item>
               <Dropdown.Item eventKey="2"><Link to="/admin/accidentabilidad">Accidentabilidad</Link></Dropdown.Item>
               <Dropdown.Item eventKey="3"><Link to="/admin/actividades">Actividades</Link></Dropdown.Item>

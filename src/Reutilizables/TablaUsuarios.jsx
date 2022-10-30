@@ -33,7 +33,7 @@ export const TablaUsuarios = () => {
           <td>JGAETES</td>
           <td>Cliente</td>
           <td>Duoc UC</td>
-          <td className="detalleButton"><Button className="verDetalle" variant="success"><Link to="/detailUsers">Ver detalle</Link></Button></td>
+          <td className="detalleButton"><Button className="verDetalle" variant="success"><Link to="/admin/detailUsers">Ver detalle</Link></Button></td>
         </tr>
       </tbody>
     </Table>

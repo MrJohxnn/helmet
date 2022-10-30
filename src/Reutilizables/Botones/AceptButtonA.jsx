@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const AceptButtonA = () => {
   return (
     <div>
-        <Button variant="success"><Link to="/listUsers">Aceptar</Link></Button>
+        <Button variant="success"><Link to="/admin/listUsers">Aceptar</Link></Button>
     </div>
   )
 }

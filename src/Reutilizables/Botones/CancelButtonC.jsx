@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const CancelButtonC = () => {
   return (
     <div>
-        <Button variant="outline-danger"><Link to="/cancel">Cancelar</Link></Button>
+        <Button variant="outline-danger"><Link to="/admin/listClient">Cancelar</Link></Button>
     </div>
   )
 }

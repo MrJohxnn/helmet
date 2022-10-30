@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 
-export const SaveButton = () => {
+export const SaveUser = () => {
 
   function simulateNetworkRequest() {
     return new Promise((resolve) => setTimeout(resolve, 2000));
@@ -25,7 +25,7 @@ export const SaveButton = () => {
         variant="success"
         disabled={isLoading}
         onClick={!isLoading ? handleClick : null}
-        href="/saveNewUser"
+        href="/admin/saveNewUser"
       >
         {isLoading ? 'Guardando...' : 'Guardar'}
       </Button>

@@ -19,7 +19,7 @@ export const BarraBuscarCli = () => {
     return (
             <Space direction="vertical">
                 <Search
-                    placeholder="Buscar usuario"
+                    placeholder="Buscar cliente"
                     allowClear
                     onSearch={onSearch}
                     style={{

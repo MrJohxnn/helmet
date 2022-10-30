@@ -8,9 +8,6 @@ export const MenuAccP = () => {
     return (
         <div>
             <ToggleButtonGroup type="checkbox" defaultValue={[4, 6]} className="mb-2">
-                <ToggleButton id="tbg-check-1" variant="success" value={4}>
-                    Gestionar seguro
-                </ToggleButton>
                 <ToggleButton id="tbg-check-2" variant="success" value={5}>
                     Contactar cliente
                 </ToggleButton>

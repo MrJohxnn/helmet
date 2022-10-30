@@ -6,6 +6,10 @@ import { ActClientesDetail1 } from '../Administrador/ActClientesDetail1'
 import { AdmPagosDetail1 } from '../Administrador/AdmPagosDetail1'
 import { AdmPagosDetail2 } from '../Administrador/AdmPagosDetail2'
 import { AdmPagosMain } from '../Administrador/AdmPagosMain'
+import { ClientAdmF } from '../Administrador/ClientAdmF'
+import { ClientAdmMain } from '../Administrador/ClientAdmMain'
+import { ClientAdmS } from '../Administrador/ClientAdmS'
+import { ClientAdmT } from '../Administrador/ClientAdmT'
 import { HelmetHomeAdm } from '../Administrador/HelmetHomeAdm'
 import { RendimientoDet1 } from '../Administrador/RendimientoDet1'
 import { RendimientoMain } from '../Administrador/RendimientoMain'
@@ -41,6 +45,10 @@ export const AppRoutes = () => {
         <Route path="/admin/listUsers" element={<UsersAdmMain />} />
         <Route path="/admin/detailUsers" element={<UsersDetailAdm />} />
         <Route path="/admin/saveDetailUser" element={<UsersDetailSaved />} />
+        <Route path="/admin/clientesMain" element={<ClientAdmF />} />
+        <Route path="/admin/NewClient" element={<ClientAdmS />} />
+        <Route path="/admin/saveNewClient" element={<ClientAdmT />} />
+        <Route path="/admin/listClient" element={<ClientAdmMain />} />
         <Route path="/admin/PagosMain" element={<AdmPagosMain />} />
         <Route path="/admin/PagoDetail1" element={<AdmPagosDetail1 />} />
         <Route path="/admin/PagoDetail2" element={<AdmPagosDetail2 />} />
