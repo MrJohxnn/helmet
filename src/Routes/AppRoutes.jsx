@@ -6,7 +6,6 @@ import { ActClientesDetail1 } from '../Administrador/ActClientesDetail1'
 import { AdmPagosDetail1 } from '../Administrador/AdmPagosDetail1'
 import { AdmPagosDetail2 } from '../Administrador/AdmPagosDetail2'
 import { AdmPagosMain } from '../Administrador/AdmPagosMain'
-import { ClientAdmF } from '../Administrador/ClientAdmF'
 import { ClientAdmMain } from '../Administrador/ClientAdmMain'
 import { ClientAdmS } from '../Administrador/ClientAdmS'
 import { ClientAdmT } from '../Administrador/ClientAdmT'
@@ -14,7 +13,6 @@ import { HelmetHomeAdm } from '../Administrador/HelmetHomeAdm'
 import { RendimientoDet1 } from '../Administrador/RendimientoDet1'
 import { RendimientoMain } from '../Administrador/RendimientoMain'
 import { ReportesMain } from '../Administrador/ReportesMain'
-import { UsersAdmF } from '../Administrador/UsersAdmF'
 import { UsersAdmMain } from '../Administrador/UsersAdmMain'
 import { UsersAdmS } from '../Administrador/UsersAdmS'
 import { UsersAdmT } from '../Administrador/UsersAdmT'
@@ -39,13 +37,11 @@ export const AppRoutes = () => {
     
         {/* rutas para administrador */}
         <Route path="/admin" element={<HelmetHomeAdm />} />
-        <Route path='/admin/AccAdm' element={<UsersAdmF />} />
         <Route path='/admin/NewUser' element={<UsersAdmS />} />
         <Route path='/admin/saveNewUser' element={<UsersAdmT />} />
         <Route path="/admin/listUsers" element={<UsersAdmMain />} />
         <Route path="/admin/detailUsers" element={<UsersDetailAdm />} />
         <Route path="/admin/saveDetailUser" element={<UsersDetailSaved />} />
-        <Route path="/admin/clientesMain" element={<ClientAdmF />} />
         <Route path="/admin/NewClient" element={<ClientAdmS />} />
         <Route path="/admin/saveNewClient" element={<ClientAdmT />} />
         <Route path="/admin/listClient" element={<ClientAdmMain />} />

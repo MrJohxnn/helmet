@@ -2,7 +2,7 @@ import React from 'react'
 import 'antd/dist/antd.css'
 import "../estilos.css"
 import { HomeButtonAdmin } from '../Reutilizables/Botones/HomeButtonAdmin';
-import { BackButtonPago } from '../Reutilizables/Botones/BackButtonPago';
+import { MenuPagos } from '../Reutilizables/Botones/MenuPagos';
 
 export const AdmPagosDetail2 = () => {
     return (
@@ -55,7 +55,7 @@ export const AdmPagosDetail2 = () => {
                 </table>
                 <div className="SetButtonsPago">
                     <div className="buttonsPago">
-                        <BackButtonPago /> 
+                        <MenuPagos /> 
                         {/* Boton de popup para detalle de pago */}
                     </div>
                     <div className="homePago">

@@ -7,7 +7,6 @@ import { BackButtonAct } from '../Reutilizables/Botones/BackButtonAct';
 
 export const ActClientesDetail1 = () => {
 
-    
     return (
         <div className="cuerpo">
             <div className="repContenedor">
