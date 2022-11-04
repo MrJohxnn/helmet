@@ -2,7 +2,7 @@ import React from 'react'
 import 'antd/dist/antd.css'
 import { ContAdministrador } from './ContAdministrador'
 import "../estilos.css"
-import "../estilos_modal.css"
+import "../Reutilizables/estModal.css"
 
 export const HelmetHomeAdm = () => {
   return (
