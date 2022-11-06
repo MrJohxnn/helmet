@@ -1,4 +1,4 @@
-import { MenSup } from "./Botones/MenSup.jsx"
+import { CerrarSesion } from "./Botones/CerrarSesion.jsx"
 import "./estReu.css"
 
 export const ContHead = () => {
@@ -13,7 +13,7 @@ export const ContHead = () => {
         <h2>Bienvenido, *nombre de usuario*</h2>
       </div>
       <div className="sesion">
-        <MenSup />
+        <CerrarSesion />
       </div>
     </div>
   )

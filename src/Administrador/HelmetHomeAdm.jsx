@@ -7,7 +7,6 @@ import "../Reutilizables/estModal.css"
 export const HelmetHomeAdm = () => {
   return (
     <div className="cuerpo">
-      
       <div className="contenedor">
         <ContAdministrador />
       </div>
