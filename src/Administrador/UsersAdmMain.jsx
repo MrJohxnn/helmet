@@ -2,7 +2,7 @@ import React from 'react'
 import 'antd/dist/antd.css'
 import "../estilos.css"
 import { HomeButtonAdmin } from '../Reutilizables/Botones/HomeButtonAdmin.jsx'
-import { TablaUsuarios } from '../Reutilizables/TablaUsuarios'
+import { TablaUsuarios } from '../Reutilizables/Tablas/TablaUsuarios'
 import { BarraBuscar } from '../Reutilizables/BarraBuscar'
 import { NewUserButton } from '../Reutilizables/Botones/NewUserButton'
 

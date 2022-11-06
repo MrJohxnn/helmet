@@ -55,8 +55,7 @@ export const AdmPagosDetail1 = () => {
                 </table>
                 <div className="SetButtonsPago">
                     <div className="buttonsPago">
-                        <MenuPagos /> 
-                        {/* Boton de popup para detalle de pago */}
+                        <MenuPagos />
                     </div>
                     <div className="homePago">
                         <HomeButtonAdmin />

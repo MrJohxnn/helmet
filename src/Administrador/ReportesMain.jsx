@@ -3,7 +3,7 @@ import 'antd/dist/antd.css'
 import "../estilos.css"
 import { HomeButtonAdmin } from '../Reutilizables/Botones/HomeButtonAdmin.jsx'
 import { BarraBuscarCli } from '../Reutilizables/BarraBuscarCli'
-import { TablaRepClientes } from '../Reutilizables/TablaRepClientes'
+import { TablaRepClientes } from '../Reutilizables/Tablas/TablaRepClientes'
 
 export const ReportesMain = () => {
     return (

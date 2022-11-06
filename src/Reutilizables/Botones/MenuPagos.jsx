@@ -16,6 +16,11 @@ export const MenuPagos = () => {
 
     return (
         <div>
+
+
+            {
+                (stateModal) ? "" : 
+
             <ToggleButtonGroup type="checkbox" defaultValue={[1, 3]} className="mb-2">
                 <ToggleButton onClick={showModal} id="tbg-check-1" variant="success" value={2}>
                     Detalle pago
@@ -24,6 +29,9 @@ export const MenuPagos = () => {
                     <Link to="/admin/BackPago">Volver</Link>
                 </ToggleButton>
             </ToggleButtonGroup>
+                
+            }
+
 
             {
                 (stateModal) ? <ModalPago setStateModal={setStateModal} />:""

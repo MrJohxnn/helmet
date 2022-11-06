@@ -394,3 +394,53 @@ a {
     margin-top: 20px;
     float: right;
 }
+
+.titContenedor{
+    padding: 10px;
+}
+
+.titEmpresa{
+    padding: 10px;
+}
+
+.accContent {
+    width: 75%;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.listCliAcc {
+    float: left;
+    margin-bottom: 20px;
+}
+
+.homeRend {
+    margin-right: 20px;
+    float: right;
+}
+
+.backRend {
+    float: left;
+}
+
+.rendEmpresa{
+    height: auto;
+}
+
+.SetButtonsRend {
+    width: 100%;
+    margin: 10px;
+    float: left;
+}
+
+.masterTabPa th{
+    text-align: left;
+}
+
+.tabPagos td{
+    font-size: 15px;
+    text-align: left;
+    justify-content: center;
+    vertical-align: middle;
+}

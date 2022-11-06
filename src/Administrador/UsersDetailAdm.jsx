@@ -7,10 +7,6 @@ import 'antd/dist/antd.css'
 import "../estilos.css"
 import { MenuAccB } from '../Reutilizables/Menus/MenuUserB.jsx';
 
-const { TextArea } = Input;
-
-const handleClick = () => setLoading(true);
-
 const { Option } = Select;
 
 const handleChange = (value) => {
@@ -51,17 +47,17 @@ export const UsersDetailAdm = () => {
                     <br />
                     <tr>
                         <td>Nombre usuario :</td>
-                        <td><Input placeholder="bwayne" defaultValue="JGAETES" className="inputDefecto" /></td>
+                        <td><Input placeholder="BWAYNE" defaultValue="BWAYNE" className="inputDefecto" /></td>
                     </tr>
                     <br />
                     <tr>
                         <td>Empresa :</td>
-                        <td><Input placeholder="Wayne Industries" defaultValue="Duoc UC" className="inputDefecto"/></td>
+                        <td><Input placeholder="Wayne Industries" defaultValue="Wayne Industries" className="inputDefecto"/></td>
                     </tr>
                     <br />
                     <tr>
                         <td>Email :</td>
-                        <td><Input placeholder="bwayne@wayneind.com" defaultValue="jgaetes@duoc.cl" className="inputDefecto"/></td>
+                        <td><Input placeholder="bwayne@wayneind.com" defaultValue="bwayne@wayneind.com" className="inputDefecto"/></td>
                     </tr>
                     <br />
                     <tr>

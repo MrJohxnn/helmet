@@ -2,7 +2,7 @@ import React from 'react'
 import 'antd/dist/antd.css'
 import "../estilos.css"
 import { HomeButtonAdmin } from '../Reutilizables/Botones/HomeButtonAdmin.jsx'
-import { TablaPagoClientes } from '../Reutilizables/TablaPagoClientes'
+import { TablaPagoClientes } from '../Reutilizables/Tablas/TablaPagoClientes'
 import { BarraBuscarCli } from '../Reutilizables/BarraBuscarCli'
 
 export const AdmPagosMain = () => {

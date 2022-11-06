@@ -4,7 +4,7 @@ import "../estilos.css"
 import { HomeButtonAdmin } from '../Reutilizables/Botones/HomeButtonAdmin.jsx'
 import { BarraBuscarCli } from '../Reutilizables/BarraBuscarCli'
 import { NewClientButton } from '../Reutilizables/Botones/NewClientButton'
-import { TablaClientes } from '../Reutilizables/TablaClientes'
+import { TablaClientes } from '../Reutilizables/Tablas/TablaClientes'
 
 export const ClientAdmMain = () => {
     return (

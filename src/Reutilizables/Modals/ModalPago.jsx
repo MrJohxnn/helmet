@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
+import { TablaDetPagos } from '../Tablas/TablaDetPagos';
 
 export const ModalPago = ({ setStateModal }) => {
 
@@ -8,14 +9,13 @@ export const ModalPago = ({ setStateModal }) => {
     }
 
     return (
-        <div className="cuerpoModal">
+        <div className="cuerpoModal animate__animated animate__fadeIn">
             <div className="contModal">
-                <h2 className="titModal">Hola Hola</h2>
-                <p className="textoModal">
-                    Insertar tabla
-                    ver animación con Panchisco 12:10
-                </p>
-                <Button onClick={closeModal} variant="outline-success">Cerrar</Button>
+                <h2 className="titModal">Detalle de pagos</h2>
+                <div className="tablaModal">
+                    <TablaDetPagos />
+                </div>
+                <Button className="animate__animated" onClick={closeModal} variant="outline-success">Cerrar</Button>
             </div>
         </div>
     )

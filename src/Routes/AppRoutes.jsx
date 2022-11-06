@@ -37,7 +37,7 @@ export const AppRoutes = () => {
     
         {/* rutas para administrador */}
         <Route path="/admin" element={<HelmetHomeAdm />} />
-        <Route path='/admin/NewUser' element={<UsersAdmS />} />
+        <Route path="/admin/NewUser" element={<UsersAdmS />} />
         <Route path='/admin/saveNewUser' element={<UsersAdmT />} />
         <Route path="/admin/listUsers" element={<UsersAdmMain />} />
         <Route path="/admin/detailUsers" element={<UsersDetailAdm />} />
