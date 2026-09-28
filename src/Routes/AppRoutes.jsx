@@ -1,4 +1,5 @@
 import React from 'react'
+import { Navigate, Route, Routes } from 'react-router-dom'
 import { Route, Routes } from 'react-router-dom'
 import { Accidentabilidad } from '../Administrador/Accidentabilidad'
 import { ActClientes } from '../Administrador/ActClientes'
@@ -31,6 +32,7 @@ export const AppRoutes = () => {
     <MenuAdm />
 
     <Routes>
+        <Route path="/" element={<Navigate to="/auth" replace />} />
 
         {/* rutas para login */}
         <Route path="/auth" element={<LogSesion/>} />

@@ -6,7 +6,7 @@ import { AppRoutes } from './Routes/AppRoutes';
 ReactDOM.createRoot(document.getElementById('root')).render(
     
 // <HelmetProvider>
-    <BrowserRouter>
+    <BrowserRouter basename="/helmet">
       <AppRoutes />
     </BrowserRouter>
 // </HelmetProvider>
