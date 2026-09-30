@@ -3,14 +3,14 @@ import { ContHead } from '../Reutilizables/ContHead'
 import { ContFooter } from '../Reutilizables/ContFooter'
 
 // Usa aquí el menú de profesional que ya tengas
-import { MenuPro } from '../Reutilizables/Menus/MenuPro'
+import { MenuProf } from '../Reutilizables/Menus/MenuProf'
 
 export const ProfesionalLayout = () => {
   return (
     <>
       <ContHead />
 
-      <MenuPro />
+      <MenuProf />
 
       <main>
         <Outlet />
