@@ -21,7 +21,7 @@ export const ContHead = () => {
       </div>
 
       <div className="welcomeU">
-        <h2>Bienvenido, {user.username}</h2>
+        <h2>Bienvenido, {user.name}</h2>
       </div>
 
       <div className="sesion">

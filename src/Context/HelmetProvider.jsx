@@ -4,13 +4,15 @@ import { HelmetContext } from '../Context/HelmetContext'
 export const HelmetProvider = ({ children }) => {
   const [user, setUser] = useState({
     username: '',
+    name: '',
     role: '',
     active: false
   })
 
-  const login = (username, role) => {
+  const login = (username, name, role) => {
     setUser({
       username,
+      name,
       role,
       active: true
     })
@@ -19,6 +21,7 @@ export const HelmetProvider = ({ children }) => {
   const logout = () => {
     setUser({
       username: '',
+      name: '',
       role: '',
       active: false
     })

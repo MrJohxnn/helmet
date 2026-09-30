@@ -22,16 +22,25 @@ export const LogSesion = () => {
     {
       username: 'admin',
       password: '1234',
+      name: 'Administrador',
       role: 'admin'
     },
     {
       username: 'cliente',
       password: '1234',
+      name: 'Cliente',
       role: 'cliente'
     },
     {
       username: 'profesional',
       password: '1234',
+      name: 'Profesional',
+      role: 'profesional'
+    },
+    {
+      username: 'jgomezn',
+      password: '1234',
+      name: 'Johann Gómez',
       role: 'profesional'
     }
   ]
@@ -51,7 +60,7 @@ export const LogSesion = () => {
     }
 
     // Guardamos usuario y rol en HelmetProvider
-    login(foundUser.username, foundUser.role)
+    login(foundUser.username, foundUser.name, foundUser.role)
 
     // Redirigimos según el rol
     switch (foundUser.role) {
