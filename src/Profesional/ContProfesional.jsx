@@ -4,7 +4,6 @@ import { Progress, Tooltip } from 'antd';
 import { Link } from "react-router-dom";
 
 
-
 export const ContProfesional = () => {
   return (
     <div>
