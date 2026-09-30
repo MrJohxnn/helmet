@@ -1,7 +1,7 @@
 import React from 'react'
 import { Alert } from 'antd';
 import { TablaMain } from "../Reutilizables/TablaMain.jsx"
-
+// Componente ContCliente
 
 export const ContCliente = () => {
   return (
