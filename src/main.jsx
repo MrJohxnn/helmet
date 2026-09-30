@@ -7,7 +7,7 @@ import { HelmetProvider } from './Context/HelmetProvider'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <HelmetProvider>
-      <HashRouter basename="/helmet">
+      <HashRouter>
         <AppRoutes />
       </HashRouter>
     </HelmetProvider>

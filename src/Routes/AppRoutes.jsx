@@ -6,7 +6,7 @@ import { ProtectedRoute } from './ProtectedRoute'
 // Layouts
 import { AdminLayout } from '../Layouts/AdminLayout'
 // import { ClientLayout } from '../Layouts/ClientLayout'
-// import { ProfessionalLayout } from '../Layouts/ProfessionalLayout'
+// import { ProfesionalLayout } from '../Layouts/ProfesionalLayout'
 
 // Auth
 import { LogSesion } from '../Auth/LogSesion'
@@ -30,6 +30,18 @@ import { ActClientesDetail1 } from '../Administrador/ActClientesDetail1'
 import { ReportesMain } from '../Administrador/ReportesMain'
 import { RendimientoMain } from '../Administrador/RendimientoMain'
 import { RendimientoDet1 } from '../Administrador/RendimientoDet1'
+
+import { ClientLayout } from '../Layouts/ClientLayout'
+import { ProfesionalLayout } from '../Layouts/ProfesionalLayout'
+
+import { HelmetHomeCli } from '../Cliente/HelmetHomeCli'
+import { RepClienteF } from '../Cliente/RepClienteF'
+import { RepClienteS } from '../Cliente/RepClienteS'
+import { RepClienteT } from '../Cliente/RepClienteT'
+
+import { HelmetHomePro } from '../Profesional/HelmetHomePro'
+import { RepProfesionalF } from '../Profesional/RepProfesionalF'
+import { RepProfesionalS } from '../Profesional/RepProfesionalS'
 
 export const AppRoutes = () => {
   return (
@@ -86,20 +98,30 @@ export const AppRoutes = () => {
         path="/cliente"
         element={
           <ProtectedRoute allowedRoles={['cliente']}>
-            <div>Panel cliente</div>
+            <ClientLayout />
           </ProtectedRoute>
-        }
-      />
+      }
+      >
+        <Route index element={<HelmetHomeCli />} />
+        <Route path="reporte-1" element={<RepClienteF />} />
+        <Route path="reporte-2" element={<RepClienteS />} />
+        <Route path="reporte-3" element={<RepClienteT />} />
+      </Route>
+
 
       {/* PROFESIONAL */}
       <Route
         path="/profesional"
         element={
           <ProtectedRoute allowedRoles={['profesional']}>
-            <div>Panel profesional</div>
+            <ProfesionalLayout />
           </ProtectedRoute>
         }
-      />
+      >
+          <Route index element={<HelmetHomePro />} />
+        <Route path="reporte-1" element={<RepProfesionalF />} />
+        <Route path="reporte-2" element={<RepProfesionalS />} />
+      </Route>
 
       <Route
         path="*"
