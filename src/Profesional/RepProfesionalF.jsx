@@ -1,7 +1,7 @@
 import React from 'react'
 import 'antd/dist/antd.css'
 import "../estilos.css"
-import { TablaAccidentes } from '../Reutilizables/TablaAccidentes'
+import { TablaAccidentes } from '../Reutilizables/TablaAccidentes.jsx'
 import { HomeButtonProf } from '../Reutilizables/Botones/HomeButtonProf'
 
 export const RepProfesionalF = () => {
