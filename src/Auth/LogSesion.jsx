@@ -38,10 +38,22 @@ export const LogSesion = () => {
       role: 'profesional'
     },
     {
-      username: 'jgomezn',
+      username: 'jgomezn1',
       password: '1234',
       name: 'Johann Gómez',
       role: 'profesional'
+    },
+    {
+      username: 'jgomezn2',
+      password: '1234',
+      name: 'Johann Gómez',
+      role: 'cliente'
+    },
+    {
+      username: 'jgomezn3',
+      password: '1234',
+      name: 'Johann Gómez',
+      role: 'admin'
     }
   ]
 
