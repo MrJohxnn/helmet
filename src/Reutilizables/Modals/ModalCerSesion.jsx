@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import Button from 'react-bootstrap/Button'
 import { useNavigate } from 'react-router-dom'
-import { HelmetContext } from '../Context/HelmetContext'
+import { HelmetContext } from '../../Context/HelmetContext.jsx'
 
 export const ModalCerSesion = ({ setStateCerSesion }) => {
 
