@@ -3,14 +3,14 @@ import { ContHead } from '../Reutilizables/ContHead'
 import { ContFooter } from '../Reutilizables/ContFooter'
 
 // Usa aquí el menú de cliente que ya tengas
-import { MenuCli } from '../Reutilizables/Menus/MenuCli'
+import { MenuClieA } from '../Reutilizables/Menus/MenuClieA'
 
 export const ClientLayout = () => {
   return (
     <>
       <ContHead />
 
-      <MenuCli />
+      <MenuClieA />
 
       <main>
         <Outlet />
