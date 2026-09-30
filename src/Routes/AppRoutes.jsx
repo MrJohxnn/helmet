@@ -5,8 +5,8 @@ import { ProtectedRoute } from './ProtectedRoute'
 
 // Layouts
 import { AdminLayout } from '../Layouts/AdminLayout'
-// import { ClientLayout } from '../Layouts/ClientLayout'
-// import { ProfesionalLayout } from '../Layouts/ProfesionalLayout'
+import { ClientLayout } from '../Layouts/ClientLayout'
+import { ProfesionalLayout } from '../Layouts/ProfesionalLayout'
 
 // Auth
 import { LogSesion } from '../Auth/LogSesion'
@@ -30,9 +30,6 @@ import { ActClientesDetail1 } from '../Administrador/ActClientesDetail1'
 import { ReportesMain } from '../Administrador/ReportesMain'
 import { RendimientoMain } from '../Administrador/RendimientoMain'
 import { RendimientoDet1 } from '../Administrador/RendimientoDet1'
-
-import { ClientLayout } from '../Layouts/ClientLayout'
-import { ProfesionalLayout } from '../Layouts/ProfesionalLayout'
 
 import { HelmetHomeCli } from '../Cliente/HelmetHomeCli'
 import { RepClienteF } from '../Cliente/RepClienteF'
